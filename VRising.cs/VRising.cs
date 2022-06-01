@@ -37,15 +37,15 @@ namespace WindowsGSM.Plugins
 
         // - Game server Fixed variables
         public override string StartPath => @"VRisingServer.exe"; // Game server start path
-        public string FullName = "VRising Dedicated Server"; // Game server FullName
+        public string FullName = "Start with all unlocks and endgame gear! Learn to PvP without risk"; // Game server FullName
         public bool AllowsEmbedConsole = false;  // Does this server support output redirect?
         public int PortIncrements = 10; // This tells WindowsGSM how many ports should skip after installation
         public object QueryMethod = new A2S(); // Query method should be use on current server type. Accepted value: null or new A2S() or new FIVEM() or new UT3()
 
 
         // - Game server default values
-        public string Port = "9876"; // Default port
-        public string QueryPort = "9877"; // Default query port
+        public string Port = "27014"; // Default port
+        public string QueryPort = "27015"; // Default query port
         public string Defaultmap = "world1"; // Default map name
         public string Maxplayers = "40"; // Default maxplayers
         public string Additional = ""; // Additional server start parameter
